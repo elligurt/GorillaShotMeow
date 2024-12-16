@@ -6,7 +6,7 @@
 
         public const string Name = "GorillaShotForce";
 
-        public const string Version = "1.0.0.0";
+        public const string Version = "1.0.1.0";
 
         public const string BundleDirectory = "GorillaShotForce.Content.birdbundle";
     }

@@ -1,7 +1,6 @@
 ﻿using GorillaShotForce.Tools;
 using HarmonyLib;
 using UnityEngine;
-using Player = Photon.Realtime.Player;
 
 namespace GorillaShotForce.Patches
 {
@@ -10,7 +9,7 @@ namespace GorillaShotForce.Patches
     {
         private static ShotForceEvents _shotForceEvents;
 
-        public static void Prefix(Vector3 position, Vector3 velocity, Player player)
+        public static void Prefix(Vector3 position, Vector3 velocity, NetPlayer player)
         {
             bool isLocal = player.IsLocal;
             bool inClump = !isLocal && Vector3.Distance(GorillaLocomotion.Player.Instance.bodyCollider.transform.position, position) <= 1f;
