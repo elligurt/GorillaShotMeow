@@ -1,4 +1,4 @@
-﻿namespace GorillaShotForce
+namespace GorillaShotForce
 {
     public class Constants
     {
@@ -8,6 +8,6 @@
 
         public const string Version = "1.0.1.0";
 
-        public const string BundleDirectory = "GorillaShotForce.Content.birdbundle";
+        public const string BundleDirectory = "GorillaShotForce.Content.meowbundle";
     }
 }
